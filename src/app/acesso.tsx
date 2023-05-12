@@ -22,7 +22,7 @@ export default function PageAcesso(){
             >Criar conta</Anchor>
           </Text>
           <form onSubmit={(e) => 
-          {router.push('/');
+          {router.push('/painel');
           e.preventDefault();}}>
           <Paper withBorder shadow="md" p={30} mt={30} radius="md">
             <TextInput label="Email" placeholder="exemplo@estudante.edu.br" required />

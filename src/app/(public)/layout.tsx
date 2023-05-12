@@ -8,6 +8,7 @@ export default function RootLayout({
 
         <body >
             <h1 style={{textAlign:"center"}}>Faça seu Login</h1>
+            <link href="/login"></link>
             {children}</body>
       </html>
     )

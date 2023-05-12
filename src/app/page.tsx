@@ -23,9 +23,10 @@ export default function Home() {
       header={
         <Header height={{ base: 40, md: 70 }} >
           <div style={{ display: 'flex', alignItems: 'left', height: '100%', width:"20%" }}>
-          <Image width={200} height={70} src=".\src\app\img\logoif.png" alt="logo do instituto federal"/>
+          <Image width={200} height={70} src="./img/logoif.png" alt="logo do instituto federal"/>
      
-          <NavLink component="a" href="/sobre" label="Sobre"/>
+          <NavLink component="a" href="/users" label="Sobre"/>
+          <NavLink component="a" href="/ajuda" label="Ajuda"/>
           <NavLink component="a" href="/ajuda" label="Ajuda"/>
           </div>
         </Header>
