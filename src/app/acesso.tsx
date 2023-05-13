@@ -1,13 +1,12 @@
 'use client';
 import {TextInput, PasswordInput, Checkbox, Anchor, Paper, Title, Text, Container, Group, Button, Image, MantineProvider} from "@mantine/core";
 import { useRouter } from "next/navigation";
-import Logo from "./Logo.png"
 export default function PageAcesso(){
     const router = useRouter();
       return (
           <Container size={420} my={10}>
            <div style={{ display: 'flex', alignItems: 'center', justifyContent:"center", width:"100%"}}>
-              <Image width={200} height={150} fit="contain"  src="./Logo.png" alt="logo do inova If"/>
+              <Image width={200} height={140} fit="contain"  src="/img/Logo.png" alt="logo do inova If"/>
      
             
             </div>
@@ -18,7 +17,7 @@ export default function PageAcesso(){
           > Seja bem-vindo!</Title>
           <Text color="dimmed" size="sm" align="center" mt={5}>
             Não tem uma conta ainda?{" "}
-            <Anchor<"a"> c="blue" href="" size="sm" 
+            <Anchor<"a"> c="blue" href="/cadastro" size="sm" 
             >Criar conta</Anchor>
           </Text>
           <form onSubmit={(e) => 
@@ -34,7 +33,7 @@ export default function PageAcesso(){
             />
             <Group position="center" spacing="xl" mt="lg">
               <Checkbox label="Lembrar-me" sx={{ lineHeight: 1 }} />
-              <Anchor<"a"> c="blue" onClick={(event) => event.preventDefault()} href="#" size="sm">
+              <Anchor<"a"> c="blue" onClick={(event) => event.preventDefault()} href="/cadastro" size="sm">
                 Esqueceu a senha? Toque para redefinir
               </Anchor>
             </Group>
