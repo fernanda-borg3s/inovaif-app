@@ -47,7 +47,7 @@ export default function RootLayout({
                     />
                   </MediaQuery>
       
-                  <Image width={150} height={70} p="lg" src="/img/logoif.png" fit="contain"></Image>
+                  <Image width={150} height={70} p="lg" src="/img/logoif.png" fit="contain" alt="logo do Instituto Federal"></Image>
                   <div style={{display:"flex", flexDirection:"row", marginLeft:"70%"}}>
                     <NavLink component="a" href="/cadastro" label="Cadastrar" p={'lg'}/>
                     <NavLink component="a" href="/sobre" label="Sobre"/>

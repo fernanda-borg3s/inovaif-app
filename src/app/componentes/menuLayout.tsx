@@ -95,7 +95,7 @@ export default function MenuLayout({children,
                     />
                   </MediaQuery>
       
-                  <Image width={150} height={70} src="/img/inovabarra.png" fit="contain"></Image>
+                  <Image width={150} height={70} src="/img/inovabarra.png" fit="contain" alt='logo do inova if'></Image>
                 </div>
               </Header>
             }
