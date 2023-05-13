@@ -37,18 +37,8 @@ export default function RootLayout({
       header={
         <Header height={{ base: 50, md: 70 }} p="md">
                 <div style={{ display: 'flex', alignItems: 'center', height: '100%' }}>
-                  <MediaQuery largerThan="sm" styles={{ display: 'none' }}>
-                    <Burger
-                      opened={opened}
-                      onClick={() => setOpened((o) => !o)}
-                      size="sm"
-                      color={theme.colors.gray[6]}
-                      mr="xl"
-                    />
-                  </MediaQuery>
-      
-                  <Image width={150} height={70} p="lg" src="/img/logoif.png" fit="contain" alt="logo do Instituto Federal"></Image>
-                  <div style={{display:"flex", flexDirection:"row", marginLeft:"70%"}}>
+                  <Image width={150} height={45} p="lg" src="/img/logoif.png" fit="contain" alt="logo do Instituto Federal"></Image>
+                  <div style={{display:"flex", flexDirection:"row", marginLeft:"1%"}}>
                     <NavLink component="a" href="/cadastro" label="Cadastrar" p={'lg'}/>
                     <NavLink component="a" href="/sobre" label="Sobre"/>
                     <NavLink component="a" href="/ajuda" label="Ajuda"/>
