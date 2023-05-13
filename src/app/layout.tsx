@@ -7,9 +7,6 @@ import { useState } from 'react';
 
 const inter = Inter({ subsets: ['latin'] })
 
-export const metadata = {
-  title: 'InovaIF',
-}
 
 export default function RootLayout({
   children,
@@ -21,6 +18,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
      <head>
+      <title>InovaIF</title>
     <link rel="icon" type="image/svg+xml" href="/img/Logo.png" />
     
   </head>
