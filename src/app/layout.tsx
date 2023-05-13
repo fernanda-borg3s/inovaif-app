@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="pt-br">
      <head>
       <title>InovaIF</title>
-    <link rel="icon" type="image/svg+xml" href="/img/Logo.png" />
+    <link rel="icon" type="image/svg+xml" href="/img/logo.png" />
     
   </head>
       <body className={inter.className} style={{background:'#f4f4f4', margin:"0px"}}>

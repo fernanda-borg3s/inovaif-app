@@ -11,7 +11,7 @@ export default function FormCadastrar(){
      
         <Container size={420} my={10}>
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: "center", width: "100%" }}>
-                <Image width={200} height={110} fit="contain" src="/img/Logo.png" alt="logo do inova If" />
+                <Image width={200} height={110} fit="contain" src="/img/logo.png" alt="logo do inova If" />
 
 
             </div>
